@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en"><!--setting the language-->
+<head>
+     <!--setting the links and keywords for the page-->
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="keywords" content="Restaurant, Haukai, Bay of Islands">
+    <meta name="description" content="Homepage of The Haukai Restaurant">
+    <link rel="stylesheet" href="./Css/style.css">
+    <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <script src="./Js/login.js"></script>
+    <script src="./Js/login.js"></script>
+    
+    <title>Staff Login</title>
+</head>
+
+<body>
+    <header>
+        <h1 class="haukai" >THE HAUKAI</h1>
+        <h2 class="restaurant">RESTAURANT</h2>
+        <hr>
+        <h3 class="headings">Staff login <br>Takiuru kaimahi</h3>
+    </header>
+    <hr>
+    <div class="menuBar">
+        <nav class="w3-bar w3-black">
+            <div class="topnav" id="myTopnav">
+                <a href="./index.html" class="active">Home</a>
+                <a href="./menu.html">Menu</a>
+                <a href="./reservations.html">Reservations</a>
+                <a href="./contact.html">Contact us</a>
+                <a href="./aboutOwners.html">About the owners</a>
+                <a href="./staffLogin.html">Staff login</a>
+                <a href="javascript:void(0);" class="icon" onclick="myFunction()">
+                  <i class="fa fa-bars"></i>
+                </a>
+              </div>
+        </nav>
+    </div>
+        
+
+    <hr>
+    <br>
+    <h2 class="headings">Login</h2>
+    <div class="login-form">
+        
+        <form id="login-form" onsubmit="login(event)">
+            <div class="form-field">
+                <label for="username">Username:</label>
+                <input type="text" id="username" name="username" required>
+            </div>
+            <div class="form-field">
+                <label for="password">Password:</label>
+                <input type="password" id="password" name="password" required>
+            </div>
+            <button type="submit" class="login-button">Log In</button>
+        </form>
+        <br>
+        
+    </div>
+    <p class="sign">to sign in username is admin and password is password</p>
+
+</body>
+<footer>
+        
+    <hr>
+    <p>proudly owned and operated in New Zealand.. &copy; The Haukai Restraunt</p>
+    <hr>
+</footer>
+
+</html>
