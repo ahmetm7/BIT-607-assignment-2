@@ -1,8 +1,9 @@
+/* this controls some of the responsive behaviours profomed*/
 @media screen and (max-width:600px){
-    h1{
+    h1{/*changes the font to a size that will be to the same effect on a smaller device*/
         font: 1.2em sans-serif;
     }
-    .karakia{
+    .karakia{/*controls the movemnet of the karakia picture*/
         justify-content: center;
         display:inline-flex;
     }
@@ -10,6 +11,26 @@
         max-width: 100%;
         max-height: 100%;
     }
+    .menu-img{
+       
+        width: 600px;
+        max-width: 100%;
+        max-height: 100%;
+    }
+    #shop{
+        width: 350px;
+        max-width: 100%;
+        max-height: 100%;
+        
+    }    
+    #map-embed{
+        float: right;
+        width: 350px;
+        height:450px;
+        overflow: hidden;
+        max-width: 100%;
+    }
+
 }
     
 /*creating the font for the page*/
@@ -73,10 +94,9 @@
       text-align: left;
     }
 }
-body{
 
-}
 p{
+    font-family:sans-serif;
 }
 header{
     background-color: rgba(255,0 ,0,0.8);
@@ -165,8 +185,8 @@ header{
 /*setting the container padding for the local div*/
 .local-img{
    
-    height: 35%;
-    width: 40%;
+    width: 350px;
+    height: 100%;
     max-width: 100%;
     max-height: 100%;
     
@@ -231,17 +251,25 @@ a:hover{
     box-shadow: 0 5px #666;
     transform: translateY(4px);
 }
-.maps{
-    align-items: center;
-    justify-content: space-between;
+#maps{
     display: flex;
-    padding: 10px;
-    padding-left: 200px;
-    padding-right: 200px;
+    text-align: center;
+    justify-content: flex-start;
+    clear: both;
+    overflow: hidden;
+    
 }
-.maps img{
+#map-embed{
+    float: right;
+    width :600px;
+    height:450px;
+    overflow: hidden;
+    
+}
+#shop{
+    width: 350px;
     max-width: 100%;
-    width: 26%;
+    max-height: 100%;
     
 }
 .calendar{
